@@ -1,0 +1,16 @@
+.button {
+    height: 40px;
+    width: 110px;
+    background-color: $secondary_color;
+    color: $darken_primary_color;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    &:hover {
+        color: $primary_color;
+        transform: scale(1.05);
+    }
+}
