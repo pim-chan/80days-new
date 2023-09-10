@@ -1,3 +1,209 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, p, button {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav__link {
+  color: rgba(255, 255, 255, 0.856);
+  transition: 0.3s;
+}
+.nav__link:hover {
+  color: white;
+}
+.nav__link--active {
+  color: white;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+header {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  z-index: 3;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 90px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url(../../../public/images/plage.jpg);
+}
+.banner__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.184);
+  position: relative;
+  z-index: 2;
+}
+
+.banner__content {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  z-index: 3;
+  margin-left: 110px;
+}
+
+.banner__text__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  width: 60%;
+}
+.banner__text__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin: 35px 0;
+}
+
+.banner__searchbar {
+  display: flex;
+}
+
+.packages-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px auto;
+}
+
+.packages-section__title {
+  font-size: 37px;
+  font-family: "Raleway", serif;
+  padding-bottom: 30px;
+  position: relative;
+  color: rgb(29, 29, 29);
+}
+.packages-section__title strong {
+  color: rgb(29, 180, 226);
+}
+.packages-section__title::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  bottom: 0;
+  left: 35%;
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.slider-cards {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.button {
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav .button {
+  background-color: rgb(29, 180, 226);
+  color: rgba(255, 255, 255, 0.856);
+  border: none;
+  transition: all 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12.5px;
+}
+.nav .button:hover {
+  color: white;
+}
+
+.banner .button {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: solid rgba(255, 255, 255, 0.856) 1px;
+  outline: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.856);
+  transition: background-color 0.3s;
+}
+.banner .button:hover {
+  color: white;
+  background-color: rgb(29, 180, 226);
+  border: 1px solid rgb(29, 180, 226);
+}
+
+.title {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 29px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  height: 65px;
+}
+
+#location-form {
+  font-family: "Montserrat", sans-serif;
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+optgroup {
+  color: black;
+}
+
+select {
+  color: white;
+}
+
+.card-package {
+  margin: 20px;
+  position: relative;
+  height: 100%;
+  width: 230px;
+  transition: all 0.5s ease;
+}
+.card-package:hover {
+  transform: scale(1.1);
+}
+
+.card-package__overlay {
+  background-color: rgba(0, 0, 0, 0.184);
+}
+
+.card-package__img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

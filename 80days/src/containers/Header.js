@@ -5,9 +5,12 @@ import Logo from '../components/Logo';
 const Header = () => {
     return (
         <header>
-            <Logo/>
-            <Navigation/> 
+            <div className="container">
+                <Logo/>
+                <Navigation/>         
+            </div>
         </header>
+
     );
 };
 

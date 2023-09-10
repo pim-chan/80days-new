@@ -7,7 +7,6 @@ import Layout from './containers/Layout';
 
 const App = () => {
   return (
-    <div>
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -17,7 +16,6 @@ const App = () => {
           </Routes>
         </Layout>
       </BrowserRouter>
-    </div>
   );
 };
 
