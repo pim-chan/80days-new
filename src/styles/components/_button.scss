@@ -1,0 +1,35 @@
+.button {
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav .button {
+    background-color: $secondary_color;
+    color: $darken_primary_color;
+    border: none;
+    transition: all 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    &:hover {
+        color: $primary_color;
+    }
+}
+
+.banner .button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: solid $darken_primary_color 1px;
+    outline: none;
+    cursor: pointer;
+    color: $darken_primary_color;
+    transition: background-color 0.3s;
+    &:hover {
+        color: $primary_color;
+        background-color: $secondary_color;
+        border: 1px solid $secondary_color;
+    }
+}
+
