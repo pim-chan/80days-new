@@ -1,17 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../components/Button';
-import LocationForm from '../components/LocationForm';
+import LocationsList from '../components/LocationsList';
 import { useSelector } from 'react-redux';
 import { selectData } from '../reducers/locationDataSlice';
 
 const Banner = () => {
+    const dataLocations = useSelector(selectData);
 
+    const [selectedOption, setSelectedOption] = useState('');
 
+    // const handleOptionChange = (option) => {
+    //     setSelectedOption(option);
+    // };
 
+    console.log(selectedOption);
+
+    const selectedLocation = dataLocations.find(location => location.country === selectedOption);
 
     return (
         <div className='banner'>
-            {/* <img src={} alt="" /> */}
+            {selectedLocation ? (
+                <img src={selectedLocation.image.banner} alt={selectedLocation.country} />
+            ) : (
+                <img src="/images/banner/costa_rica.jpg" alt="photo France" />
+            )}
             <div className="banner__overlay"></div>
             <div className="banner__content">
                 <div className="banner__text">
@@ -19,7 +31,7 @@ const Banner = () => {
                     <p className="banner__text__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="banner__searchbar">
-                    <LocationForm/>
+                    <LocationsList/>
                     <Button text={"Search"}/>
                 </div>
             </div> 

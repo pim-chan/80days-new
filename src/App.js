@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useDispatch} from "react-redux";
-import jsonData from './assets/locations.json';
+import jsonData from './locations.json';
 import { locationsData } from './reducers/locationDataSlice';
 
 import Home from './pages/Home';

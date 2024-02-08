@@ -7,9 +7,11 @@
         transition: 0.3s;
         &:hover {
             color: $primary_color;
+            scale: 1.05;
         }
         &--active {
             color: $primary_color;
+            scale: 1.05;
         }
     }
 }
@@ -20,3 +22,4 @@
     white-space: nowrap;
     cursor: pointer; 
 }
+// 80808078;

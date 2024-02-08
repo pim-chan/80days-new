@@ -1,0 +1,175 @@
+[
+    {
+        "id": "1",
+        "continent": "Europe",
+        "country": "France",
+        "image": {
+            "banner": "/images/banner/france.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "2",
+        "continent": "Europe",
+        "country": "England",
+        "image": {
+            "banner": "/images/banner/england.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "3",
+        "continent": "Europe",
+        "country": "Italy",
+        "image": {
+            "banner": "images/banner/italy.webp",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "4",
+        "continent": "Europe",
+        "country": "Spain",
+        "image": {
+            "banner": "images/banner/spain.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "5",
+        "continent": "Africa",
+        "country": "South Africa",
+        "image": {
+            "banner": "images/banner/south_africa.webp",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "6",
+        "continent": "Africa",
+        "country": "Tanzania",
+        "image": {
+            "banner": "/images/banner/tanzania.jpeg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "7",
+        "continent": "North America",
+        "country": "Canada",
+        "image": {
+            "banner": "/images/banner/canada.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "8",
+        "continent": "North America",
+        "country": "Hawai",
+        "image": {
+            "banner": "/images/banner/hawai.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "9",
+        "continent": "North America",
+        "country": "United States",
+        "image": {
+            "banner": "/images/banner/usa.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "10",
+        "continent": "Central America",
+        "country": "Costa Rica",
+        "image": {
+            "banner": "/images/banner/costa_rica.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "11",
+        "continent": "East Asia",
+        "country": "Japan",
+        "image": {
+            "banner":"/images/banner/img-japon2.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "../src/assets/images/slider/japon.webp"
+        },
+        "prix": "999€"
+    },
+    {
+        "id": "12",
+        "continent": "East Asia",
+        "country": "South Korea",
+        "image": {
+            "banner": "/images/banner/south_korea.jpeg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "13",
+        "continent": "East Asia",
+        "country": "Maldives",
+        "image": {
+            "banner": "/images/banner/maldives.jpg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "14",
+        "continent": "South Asia",
+        "country": "Malaysia",
+        "image": {
+            "banner": "/images/banner/malaysia.webp",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "15",
+        "continent": "South Asia",
+        "country": "Singapore",
+        "image": {
+            "banner": "./images/banner/singapore.jpeg",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "16",
+        "continent": "South Asia",
+        "country": "Thailand",
+        "image": {
+            "banner": "/images/banner/thailand.webp",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    },
+    {
+        "id": "17",
+        "continent": "Oceania",
+        "country": "Australia",
+        "image": {
+            "banner": "/images/banner/australia.webp",
+            "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
+            "slider": "./assets/images/slider/ryoji-iwata(small).webp"
+        }
+    }
+]
+
+
