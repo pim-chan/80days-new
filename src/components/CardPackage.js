@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import axios from "axios";
+import React from 'react';
 
 const CardPackage = () => {
-    // const [data, setData] = useState([])
-    // useEffect(() => {
-    //     axios
-    //     .get("/locations.json")
-    //     .then((res) => setData(res.data));
-    // }, []);
+
+    const dataLocations = useSelector(useData)
+
+
 
     return (
         <div>
-           {/* {Object.keys(data).map((continent) => (
+           {/* {data.map((continent) => (
                <div key={continent}>
                    <h2>{continent}</h2>
                    {data[continent].map((location) => (

@@ -145,7 +145,7 @@
         "continent": "South Asia",
         "country": "Singapore",
         "image": {
-            "banner": "./images/banner/singapore.jpeg",
+            "banner": "/images/banner/singapore.jpeg",
             "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
             "slider": "./assets/images/slider/ryoji-iwata(small).webp"
         }

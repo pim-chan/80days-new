@@ -20,9 +20,9 @@
 }
 
 .banner .button {
-    background-color: transparent;
+    background-color: rgba(48, 48, 48, 0.63);
     padding: 10px 20px;
-    border: solid $darken_primary_color 1px;
+    border: solid transparent 1px;
     outline: none;
     cursor: pointer;
     color: $darken_primary_color;

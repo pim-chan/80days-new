@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Packages from './pages/Packages';
 import Layout from './containers/Layout';
+import Blog from './components/Blog';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/packages' element={<Packages/>}/>
+            <Route path='/blog' element={<Blog/>}/>
           </Routes>
         </Layout>
       </BrowserRouter>

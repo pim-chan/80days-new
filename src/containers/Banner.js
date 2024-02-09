@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 import Button from '../components/Button';
-import LocationsList from '../components/LocationsList';
 import { useSelector } from 'react-redux';
 import { selectData } from '../reducers/locationDataSlice';
+import LocationsList from '../components/LocationsList';
+
 
 const Banner = () => {
     const dataLocations = useSelector(selectData);
 
     const [selectedOption, setSelectedOption] = useState('');
 
-    // const handleOptionChange = (option) => {
-    //     setSelectedOption(option);
-    // };
-
-    console.log(selectedOption);
+    const handleOptionChange = (option) => {
+        setSelectedOption(option);
+    };
 
     const selectedLocation = dataLocations.find(location => location.country === selectedOption);
 
@@ -31,7 +30,7 @@ const Banner = () => {
                     <p className="banner__text__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="banner__searchbar">
-                    <LocationsList/>
+                    <LocationsList onOptionChange={handleOptionChange} selectedOption={selectedOption}/>
                     <Button text={"Search"}/>
                 </div>
             </div> 

@@ -13,9 +13,10 @@
 .select_location .arrow {
     fill: white;
     height: 11px; 
+    cursor: pointer;
 }
 
-.arrow--rotated {
+.--rotated {
     transform: rotate(180deg);
 }
 
