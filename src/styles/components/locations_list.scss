@@ -14,11 +14,20 @@
     fill: white;
     height: 11px; 
     cursor: pointer;
+    
 }
 
-.--rotated {
+.--open {
     transform: rotate(180deg);
+    transition: all 0.3s;
 }
+
+.--close {
+    transform: rotate(180deg);
+    transition: all 0.1s;
+}
+
+
 
 .locations_list {
     position: absolute;
