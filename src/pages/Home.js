@@ -1,13 +1,14 @@
 import React from 'react';
 import Banner from '../containers/Banner';
-import PackagesSection from '../containers/PackagesSection';
+import PopularSection from '../containers/PopularSection';
+
 
 const Home = () => {
 
     return (
-        <div>
+        <div className='content__container'>
             <Banner />
-            <PackagesSection/>
+            <PopularSection/>
         </div>
     );
 };

@@ -10,11 +10,12 @@ const Banner = () => {
 
     const [selectedOption, setSelectedOption] = useState('');
 
+    const selectedLocation = dataLocations.find(location => location.country === selectedOption);
+    
     const handleOptionChange = (option) => {
         setSelectedOption(option);
     };
 
-    const selectedLocation = dataLocations.find(location => location.country === selectedOption);
 
     return (
         <div className='banner'>
@@ -26,7 +27,7 @@ const Banner = () => {
             <div className="banner__overlay"></div>
             <div className="banner__content">
                 <div className="banner__text">
-                    <h2 className="banner__text__title">Never Let Your Memories Be Greater Than Your Dreams.</h2>
+                    <h2 className="banner__text__title">Never Let Your Men Be Greater Than Your Dad.</h2>
                     <p className="banner__text__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="banner__searchbar">

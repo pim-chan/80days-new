@@ -8,7 +8,9 @@
             "banner": "/images/banner/france_2.jpg",
             "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
             "slider": "/images/card/paris.webp"
-        }
+        }, 
+        "city": "Paris",
+        "price": "999€"
     },
     {
         "id": "2",
@@ -45,7 +47,7 @@
         "continent": "Africa",
         "country": "South Africa",
         "image": {
-            "banner": "images/banner/south_africa.webp",
+            "banner": "images/banner/cape_town.jpeg",
             "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
             "slider": "./assets/images/slider/ryoji-iwata(small).webp"
         }
@@ -110,7 +112,8 @@
             "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
             "slider": "/images/card/japon.webp"
         },
-        "prix": "999€"
+        "city": "Tokyo",
+        "price": "999€"
     },
     {
         "id": "12",
@@ -131,7 +134,9 @@
             "banner": "/images/banner/maldives.jpg",
             "bannerMobile": "./assets/images/slider/ryoji-iwata(small).webp",
             "slider": "/images/card/maldives (8).jpg"
-        }
+        }, 
+        "city": "?",
+        "price": "999€"
     },
     {
         "id": "14",
